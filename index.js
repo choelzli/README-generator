@@ -53,8 +53,14 @@ const questions = [
     },
 ];
 
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+}
 
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => writeToFile('./dist/README.md', generateMarkdown(answers)))
+    .then(() => console.log('Successfully generated README'))
+    .catch((err) => console.error(err));
+}
 
 init();
