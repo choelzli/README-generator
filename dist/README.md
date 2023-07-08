@@ -12,7 +12,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  The code may be accessed by visiting the site URL (https://choelzli.github.io/readme-generator).
+  The code may be accessed by visiting the GitHub repository (https://github.com/choelzli/README-generator).
   ## Usage
   The user may utilize this application by watching a video demonstration saved here: https://drive.google.com/drive/folders/1NlHdHfEpeaCZxokn7mG-HJ938XLaT5A-?usp=sharing
   ## License
